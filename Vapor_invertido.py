@@ -144,8 +144,8 @@ def contratos_skin(lista_todo, skin_col): #Se puede usar poniendo un arma que qu
     return contratos
 
 
-def parche_gastos(lista_gasto, cant_c, cant_f):
-    parche = []
+def parche_gastos(lista_gasto, cant_c, cant_f): # se usa par ordenar los gastos de las armas
+    parche = [] 
     i = 0
     col = 0
     fill = 0
