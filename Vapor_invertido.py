@@ -298,7 +298,7 @@ def lowest_cost(arma_col, arma_fill, cant_sup, cant_fill):
     x0 = np.array([flote_buscado, flote_buscado])  # punto inicial #el 0.5 capaz cambiar por flote_buscado
 
     # Resolución del problema
-    result = minimize(objective, x0, bounds = bound, constraints = constr)
+    result = minimize(objective, x0, bounds = bound, constraints = constr) # Usa minimos cuadrados para minimizar
 
     # Mostramos el resultado
     # print("Resultado de la optimización:")
